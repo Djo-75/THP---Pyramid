@@ -6,9 +6,7 @@ print "> "
 
 floor = gets.chomp.to_i
 
-while floor >= 25 || floor < 0
 
     floor.times do |j|
         puts "#" + "#" * j
     end
-end
