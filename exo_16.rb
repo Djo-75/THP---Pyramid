@@ -5,8 +5,6 @@ print "> "
 
 floor = gets.chomp.to_i
 
-
-
     floor.times do |j|
         puts (" " * (floor-j))+("#" + "#" * j)
     end

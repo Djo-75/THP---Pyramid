@@ -5,8 +5,6 @@ puts "Salut, bienvenue dans ma super pyramide ! Donne-moi un chiffre entre 1 et 
 print "> "
 
 floor = gets.chomp.to_i
-
-
     floor.times do |j|
         puts "#" + "#" * j
     end
